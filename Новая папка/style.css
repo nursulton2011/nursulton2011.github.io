@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: "TT Hoves", sans-serif;
+    color: #222;
+}
+section {
+    padding: 0 calc(24px + (120 - 24)*((100vw - 375px) / (1280 - 375)));
+}
+.first {
+    padding-top: 40px;
+    background-image: url('./back.jpg');
+    background-repeat: no-repeat;
+    background-position: top 20px right 40px;
+    background-size: 30%;
+}
+.logo {
+    padding-top: 20px;
+    height: 41px;
+}
+.courseInfo {
+    display: flex;
+    gap: 30px 160px;
+    flex-wrap: wrap;
+    margin-top: calc(28px + (85 - 28)*((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(48px + (76 - 48)*((100vw - 375px) / (1280 - 375)));
+}
+.courseData {
+    font-size: 21px;
+    line-height: 140%;
+}
+.value {
+    font-weight: 700;
+}
+h1 {
+    font-family: 'Chava', sans-serif;
+    font-size: calc(42px + (80 - 42)*((100vw - 375px) / (1280 - 375)));
+    line-height: 110%;
+}
+p {
+    margin-top: calc(20px + (40 - 20)*((100vw - 375px) / (1280 - 375)));
+    font-size: calc(18px + (27 - 18)*((100vw - 375px) / (1280 - 375)));
+    font-weight: 300;
+    line-height: 140%;  
+}
+.cta {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px 30px;
+    flex-wrap: wrap;
+}
+button {
+    width: 328px;
+    height: 61px;
+    padding: 20px 0px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 117%;
+}
+button.purple {
+    background-color: #6E3ABA;
+    color: white;
+    border: 1px solid #6E3ABA;
+}
+button.white {
+    background-color: white;
+    color: #6E3ABA;
+    border: 1px solid #6E3ABA;
+}
+.hello {
+    margin-top: 90px px 0px 120px;
+    display: flex;
+    flex-wrap: wrap; /* Позволяет переносить блоки на новую строку */
+    gap: 10px; /* Расстояние между блоками */
+    
+}
+
+.blok1, .blok2 {
+    flex: 0 1 45%; /* Устанавливаем ширину блоков 1 и 2 на 45% */
+    box-sizing: border-box; /* Включаем отступы в ширину блока */
+}
+
+.blok3, .blok4 {
+    flex: 0 1 45%; /* Заставляем блоки 3 и 4 занимать полную ширину */
+    box-sizing: border-box; /* Включаем отступы в ширину блока */
+}
+
+.blok1 {
+    height: 506px;
+    gap: 10px;
+
+}
+
+.blok2 {
+    height: 468px;
+    gap: 10px;
+}
+
+.blok3 {
+    height: 468px;
+}
+
+.blok4 {
+    height: 506px;
+    gap: 10px;
+}
+.blok1 p{
+    width: 450px;
+    height: 286px;
+}
+.blok2 p{
+    width: 450px;
+    height: 190px;
+}
+.blok3 p{
+    width: 432px;
+    height: 252px;
+}
+.blok4 p{
+    width: 477px;
+    height: 190px;
+}
+.hello {
+    margin-left: 120px;
+    margin-top: 90px;
+}
+h2{
+    margin-left: 120px;
+}
+@media(max-width: 375px){
+    .glavnoe{
+        padding-left: 23;
+    }
+    p{
+        width: 328px;
+        height: 125px;
+        font-weight: 400;
+    }
+    .beckender{
+        width: 180px;
+        height: 180px;
+    }
+    .student{
+        width: 180px;
+        height: 180px;
+    }
+    .junior{
+        width: 180px;
+        height: 180px;
+    }
+    .devochka{
+        width: 180px;
+        height: 180px;
+    }
+    .blok1{
+        width: Hug (328px)px;
+        height: Hug (350px)px;
+        gap: 10px;   
+    }
+    .blok2{
+        width: Hug (328px)px;
+        height: Hug (350px)px;
+        gap: 10px;        
+    }
+    .blok3{
+        width: Hug (328px)px;
+        height: Hug (325px)px;
+        gap: 10px;     
+    }
+    .blok4{
+        width: Hug (328px)px;
+        height: Hug (375px)px;
+        gap: 10px;
+    }
+    h4{
+    width: 328px;
+    height: 25px;
+    font-weight: 600;
+    }
+}
+.saleContainer {
+    background-color: #6E3ABA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: calc(4.4vw + 23px) 0 calc(5.3vw + 20px);
+}
+
+.saleContainer h3 {
+    color: white;
+    font-size: calc(2vw + 26.5px);
+    margin-bottom: calc(4.1vw + 4.7px);
+}
+.time {
+    display: flex;
+    gap: 85px;
+    margin-bottom: calc(4vw + 6px);
+}
+.date {
+    font-size: calc(12.6vw + 12.8px);
+    font-family:"Chava", sans-serif;
+}
+.timeCard span {
+    text-align: center;
+    display: block;
+    font-size: calc(1.9vw + 3px);
+}
+
+.four{
+    padding-top: 120;
+}
+.fourh2{
+    left: 120px;
+    width:  calc(328px + (1022 - 328)*((100vw - 375px) / (1280 - 375)));
+    height:  calc(136px + (136 - 160)*((100vw - 375px) / (1280 - 375)))px;
+    font-family: 'TT Hoves';
+    font-size: calc(34px + (58 - 34)*((100vw - 375px) / (1280 - 375)));
+    font-weight: 500;
+    line-height: 85%;
+    
+}
+.glavnoe4{
+    display: flex;
+    flex-wrap: wrap;
+}
+.obzats1{
+    padding-top:  90px;
+    width: 400px;
+    height: 210px;
+    top: calc(20px + (90 - 20)*((100vw - 375px) / (1280 - 375)));
+    gap:  calc(10px + (20 - 10)*((100vw - 375px) / (1280 - 375)));
+}
+.obzats2{
+    padding-top:  90px;
+    padding-left: calc(30px + (120 - 30)*((100vw - 375px) / (1280 - 375)));
+    width: 428px;
+    height: 248px;
+
+    gap: 20px;
+}
+.obzats3{
+    padding-top:  90px;
+    width: 400px;
+    height: 248px;
+    gap: 20px;
+}
+.obzats4{
+    padding-top:  52px;
+    width: 400px;
+    height: 248px;
+    gap: 20px;
+    padding-left: calc(30px + (120 - 30)*((100vw - 375px) / (1280 - 375)));
+}
+.glavnoe4 h4{
+    font-family: 'TT Hoves';
+    font-size: 27px;
+    font-weight: 600;
+
+}
